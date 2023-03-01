@@ -6,6 +6,3 @@ RUN gem install danger-textlint
 
 RUN pwd
 RUN ls -l
-
-ENTRYPOINT "danger"
-CMD "--verbose"
